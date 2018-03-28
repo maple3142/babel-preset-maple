@@ -15,8 +15,8 @@ module.exports = (api, opts = {}) => {
 				}
 			}
 		}
-		if (typeof opts.esmodules!=='undefined' && opts.env.targets) {
-			opts.env.targets.esmodules = opts.esmodules
+		if (typeof opts.modules!=='undefined' && opts.env.targets) {
+			opts.env.modules = opts.modules
 		}
 	}
 
